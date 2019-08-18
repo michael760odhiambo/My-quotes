@@ -1,2 +1,3 @@
 <p>{{quote.description}}</p>
-<button (click)= 'quoteComplete(true)'>Complete</button>
+<button (click)= 'quoteDelete(true)' class="btn btn-outline-danger" >DELETE</button>
+<p>This quotes will be due in {{quote.completeDate|dateCount}} days</p>
