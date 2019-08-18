@@ -1,7 +1,11 @@
 h3{
   text-align: center;
-  color: white;
+  color: black;
   padding-top: 100px;
   font-style: italic;
 
+}
+
+li{
+  color: black;
 }
