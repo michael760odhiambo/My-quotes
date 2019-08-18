@@ -1,11 +1,11 @@
 <div>
-  <h1>Daily quotes</h1>
+  <h3>Daily quotes</h3>
   <hr>
   <div class="row">
     <div class="col-md-6">
       <ul>
         <div *ngFor='let quote of quotes; let i = index'>
-          <li appStrikethrough>
+          <li id={{i}}appStrikethrough>
             {{quote.name}} due on {{quote.completeDate|date}}
             <br>
 

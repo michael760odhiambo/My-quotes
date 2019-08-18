@@ -1,0 +1,21 @@
+#landingpage{
+  background-image: url('https://images.unsplash.com/photo-1562047330-8c629310c0d7?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=700&q=60');
+  height: 300px;
+  width: 100%;
+  background-position: cover;
+
+}
+
+h1{
+  font-style: italic;
+  font-family: sans-serif;
+  color: white;
+}
+
+h3{
+  text-align: center;
+  color: white;
+  padding-top: 100px;
+  font-style: italic;
+
+}
