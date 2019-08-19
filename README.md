@@ -12,7 +12,7 @@ BOOTSTRAP
 JAVASCRIPT
 
 # LIVE LINK
-* 
+*  https://michael760odhiambo.github.io/My-quotes/
 
 
 
