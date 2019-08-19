@@ -7,7 +7,7 @@
         <div class="card">
           <div *ngFor='let quote of quotes; let i = index' class='card-body bg-info' >
             <li id={{i}}appStrikethrough style="color:black">
-              {{quote.name}} due on {{quote.completeDate|date}}
+              {{quote.name}}  {{quote.completeDate|date}}
               <br>
   
               <button type="button" name="button" (click)="quote.upvotes = quote.upvotes + 1" class="btn btn-success">Upvote {{quote.upvotes}}</button>
